@@ -84,11 +84,11 @@ body {
   content: "<header>";
 }
 
-/*.nav:before {
+.nav:before {
   content: "<nav>";
 }
 
-.main {
+/*.main {
   overflow: hidden;
 }
 .main:before {
