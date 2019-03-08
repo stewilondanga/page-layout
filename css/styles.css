@@ -96,11 +96,11 @@ body {
   content: "<main>";
 }
 
-/*.content, .sidebar {
+.content, .sidebar {
   padding-bottom: 40%;
 }
 
-.content {
+/*.content {
   overflow: hidden;
 }
 .content:before {
