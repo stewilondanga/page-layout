@@ -76,10 +76,11 @@ body {
   color: #fff;
 }
 
-/*.header {
+.header {
   padding-bottom: 8%;
 }
-.header:before {
+
+/*.header:before {
   content: "<header>";
 }
 
