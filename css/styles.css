@@ -67,11 +67,12 @@ body {
   background: #abc;
 }
 
-/*.container .main:before {
+.container .main:before {
   top: 25%;
   color: #468;
 }
-.container .content:before, .container .sidebar:before {
+
+/*.container .content:before, .container .sidebar:before {
   color: #fff;
 }
 
