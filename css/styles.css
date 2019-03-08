@@ -53,10 +53,11 @@ body {
   margin-right: -100px;
 }
 
-/*.container .nav {
+.container .nav {
   background: #333;
 }
-.container .nav:before {
+
+/*.container .nav:before {
   color: #ccc;
 }
 .container .main {
