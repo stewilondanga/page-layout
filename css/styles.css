@@ -21,6 +21,104 @@ body {
   height: 1.5em;
 }
 
+body {
+  background: #ddd;
+}
+
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: auto;
+  border: 2px solid #fff;
+  background: #ddd;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.container * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2.5%;
+  min-height: 34px;
+  position: relative;
+  border: 2px solid #fff;
+}
+.container *:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 200px;
+  text-align: center;
+  font-family: consolas, monaco, monospace;
+  color: #666;
+  font-size: 28px;
+  letter-spacing: -1px;
+  height: 28px;
+  line-height: 1;
+  margin-top: -14px;
+  margin-right: -100px;
+}
+.container .nav {
+  background: #333;
+}
+.container .nav:before {
+  color: #ccc;
+}
+.container .main {
+  border: 0;
+  padding: 0;
+  background: #abc;
+}
+.container .main:before {
+  top: 25%;
+  color: #468;
+}
+.container .content:before, .container .sidebar:before {
+  color: #fff;
+}
+
+.header {
+  padding-bottom: 8%;
+}
+.header:before {
+  content: "<header>";
+}
+
+.nav:before {
+  content: "<nav>";
+}
+
+.main {
+  overflow: hidden;
+}
+.main:before {
+  content: "<main>";
+}
+
+.content, .sidebar {
+  padding-bottom: 40%;
+}
+
+.content {
+  overflow: hidden;
+}
+.content:before {
+  content: "<article>";
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  min-width: 180px;
+}
+.sidebar:before {
+  content: "<aside>";
+}
+
+.footer:before {
+  content: "<footer>";
+}
+
 .containers {
   width: 520px;
   margin: 20px auto;
