@@ -114,11 +114,11 @@ body {
   min-width: 180px;
 }
 
-/*.sidebar:before {
+.sidebar:before {
   content: "<aside>";
 }
 
-.footer:before {
+/*.footer:before {
   content: "<footer>";
 }
 
