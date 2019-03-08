@@ -88,10 +88,11 @@ body {
   content: "<nav>";
 }
 
-/*.main {
+.main {
   overflow: hidden;
 }
-.main:before {
+
+/*.main:before {
   content: "<main>";
 }
 
