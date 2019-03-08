@@ -80,11 +80,11 @@ body {
   padding-bottom: 8%;
 }
 
-/*.header:before {
+.header:before {
   content: "<header>";
 }
 
-.nav:before {
+/*.nav:before {
   content: "<nav>";
 }
 
