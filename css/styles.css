@@ -100,10 +100,11 @@ body {
   padding-bottom: 40%;
 }
 
-/*.content {
+.content {
   overflow: hidden;
 }
-.content:before {
+
+/*.content:before {
   content: "<article>";
 }
 
