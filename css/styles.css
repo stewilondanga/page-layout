@@ -72,11 +72,11 @@ body {
   color: #468;
 }
 
-/*.container .content:before, .container .sidebar:before {
+.container .content:before, .container .sidebar:before {
   color: #fff;
 }
 
-.header {
+/*.header {
   padding-bottom: 8%;
 }
 .header:before {
