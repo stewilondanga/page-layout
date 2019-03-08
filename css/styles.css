@@ -61,12 +61,13 @@ body {
   color: #ccc;
 }
 
-/*.container .main {
+.container .main {
   border: 0;
   padding: 0;
   background: #abc;
 }
-.container .main:before {
+
+/*.container .main:before {
   top: 25%;
   color: #468;
 }
