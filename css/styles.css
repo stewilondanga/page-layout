@@ -118,11 +118,11 @@ body {
   content: "<aside>";
 }
 
-/*.footer:before {
+.footer:before {
   content: "<footer>";
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
