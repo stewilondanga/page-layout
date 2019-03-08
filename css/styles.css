@@ -57,10 +57,11 @@ body {
   background: #333;
 }
 
-/*.container .nav:before {
+.container .nav:before {
   color: #ccc;
 }
-.container .main {
+
+/*.container .main {
   border: 0;
   padding: 0;
   background: #abc;
